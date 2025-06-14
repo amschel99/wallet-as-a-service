@@ -15,7 +15,7 @@ import { LitActionResource } from "@lit-protocol/auth-helpers";
 import { ethers } from "ethers";
 import { getAuthIdByAuthMethod } from "@lit-protocol/lit-auth-client";
 const privateKey =
-  "ac7254563414ebdc9077b74cf9e2352e83466b804c6184728acc72e3851707d2";
+  "";
 
 async function initializeWallet() {
   if (!privateKey) {
