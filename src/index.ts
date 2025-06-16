@@ -14,8 +14,7 @@ import {
 import { LitActionResource } from "@lit-protocol/auth-helpers";
 import { ethers } from "ethers";
 import { getAuthIdByAuthMethod } from "@lit-protocol/lit-auth-client";
-const privateKey =
-  "";
+const privateKey = "d3cbe2e91ea90e87a13c0c5baa88b125fc599e3a74d46f99be78fb966857b214";
 
 async function initializeWallet() {
   if (!privateKey) {
@@ -23,7 +22,7 @@ async function initializeWallet() {
   }
 
   // Initialize provider with explicit network configuration
-  const provider = new ethers.JsonRpcProvider(
+  const provider = new ethers.providers.JsonRpcProvider(
     "https://yellowstone-rpc.litprotocol.com/"
   );
 
@@ -45,7 +44,7 @@ async function initializeWallet() {
   // Create wallet with explicit provider connection
   const wallet = new ethers.Wallet(privateKey, provider);
   return wallet;
-}   
+}
 
 async function initializeLitContracts(wallet) {
   try {
