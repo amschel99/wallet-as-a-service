@@ -1,2 +1,93 @@
+# ================================
+# ENVIRONMENT & SECRETS
+# ================================
 .env
-node_modules
+.env.local
+.env.production
+.env.staging
+config.ts
+
+# ================================
+# PKP WALLET DATA (CRITICAL!)
+# ================================
+user-pkps.json
+*.pkp.json
+private-keys/
+wallets/
+
+# ================================
+# NODE.JS
+# ================================
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+
+# ================================
+# BUILD OUTPUTS
+# ================================
+dist/
+build/
+out/
+.next/
+*.tsbuildinfo
+
+# ================================
+# LOGS
+# ================================
+logs
+*.log
+*.log.*
+
+# ================================
+# RUNTIME & CACHE
+# ================================
+.cache/
+.npm
+.yarn
+.pnp
+.pnp.js
+
+# ================================
+# IDE & EDITORS
+# ================================
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# ================================
+# OS GENERATED
+# ================================
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# ================================
+# TESTING & COVERAGE
+# ================================
+coverage/
+.nyc_output
+.coverage
+*.lcov
+
+# ================================
+# TEMPORARY FILES
+# ================================
+*.tmp
+*.temp
+.tmp/
+.temp/
+
+# ================================
+# PACKAGE MANAGERS
+# ================================
+package-lock.json
+yarn.lock
+.pnpm-debug.log*
