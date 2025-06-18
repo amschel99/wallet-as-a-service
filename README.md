@@ -1,6 +1,6 @@
 # 🔐 PKP Wallet-as-a-Service SDK
 
-A production-ready Programmable Key Pair (PKP) wallet management system built on Lit Protocol. Create deterministic, multi-chain wallets for your users without them needing to manage private keys.
+ Programmable Key Pair (PKP) wallet management system built on Lit Protocol. Create deterministic, multi-chain wallets for your users without them needing to manage private keys.
 
 ## 🌟 What is this?
 
